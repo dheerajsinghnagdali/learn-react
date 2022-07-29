@@ -1,7 +1,13 @@
 import * as React from "react";
+import { BadStopwatch, GoodStopwatch } from "./use-effect";
 
 const App: React.FC = () => {
-  return <h1>Learn react</h1>;
+  return (
+    <div className="grid grid-cols-2">
+      <BadStopwatch />
+      <GoodStopwatch />
+    </div>
+  );
 };
 
 export default App;
