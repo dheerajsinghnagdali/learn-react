@@ -1,13 +1,9 @@
 import * as React from "react";
-import { BadStopwatch, GoodStopwatch } from "./use-effect";
+// import { BadStopwatch, GoodStopwatch } from "./use-effect";
+import Transition from "./use-transition";
 
 const App: React.FC = () => {
-  return (
-    <div className="grid grid-cols-2">
-      <BadStopwatch />
-      <GoodStopwatch />
-    </div>
-  );
+  return <Transition />;
 };
 
 export default App;
